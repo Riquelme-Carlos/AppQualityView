@@ -14,6 +14,54 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="207dp"
-        app:srcCompat=
-    </ImageView>
+        app:srcCompat="@drawable/quality_view_logo" />
+
+    <TextView
+        android:id="@+id/txtInvitation"
+        style="@style/viewCustom"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:text="@string/introduceDatos"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        style="@style/viewCustom"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="@color/black"
+        android:hint="@string/etEmail"
+        android:inputType="textEmailAddress"
+        android:paddingTop="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        style="@style/viewCustom"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="@color/black"
+        android:hint="@string/etPassword"
+        android:inputType="textPassword"
+        android:paddingTop="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/btnLogin"
+        style="@style/viewCustom"
+        android:background="#B4BE32"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:textAlignment="center"
+        android:text="@string/btnLogin"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:onClick="login"
+        />
   </LinearLayout>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AppQualityView</string>
+    <string name="introduceDatos">Ingresa tus datos:</string>
+    <string name="etEmail">Correo electrónico</string>
+    <string name="etPassword">Contraseña</string>
+    <string name="btnLogin">Iniciar Sesión</string>
+
 </resources>
